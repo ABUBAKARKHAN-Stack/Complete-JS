@@ -53,6 +53,7 @@
  // 1: Array
 //  const hero = ["batman" , "spiderman" , "Superman"];
 //  console.log(typeof hero)
+  // TYPE OBJ
 
  // 2: Object
 //   let obj ={
@@ -66,6 +67,7 @@
  /* const myFunc = function()
  {
       console.log("Hello world");
+      Type OF = Functional-OBj
  } 
  */
 //                      NOTE: Data Type Of Non-Primitive (DT) Always Object                        //
