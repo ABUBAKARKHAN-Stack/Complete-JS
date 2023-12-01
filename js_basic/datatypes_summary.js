@@ -71,3 +71,34 @@
  } 
  */
 //                      NOTE: Data Type Of Non-Primitive (DT) Always Object                        //
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// Memory // 
+/*
+  Types
+  1: Stack
+  2: Heap
+  */
+    // 1: Stack Memory //
+    // Stack Memory Used in all Primitive Data Types //
+    // let myfacebook_name = "AbubakarKhan"
+    // let anotherfbname = myfacebook_name
+    // anotherfbname = "Abubakarxd7"
+    // console.log(myfacebook_name);
+    // console.log(anotherfbname);
+    
+    // 2: Heap Memory
+   // Stack Memory Used in all Non-Primitive Data Types (Referances DT)
+    //   let userOne = {
+    //     name : "adil" , 
+    //     email : "xyz@gmail.com"
+    //   }
+    //   let userTwo = userOne
+    //   console.log(userTwo)
+    //   userTwo.email = "abc@gmail.com"
+    //   console.log(userOne.email);
+    //   console.log(userTwo.email);
+
+    
+   
+
