@@ -71,7 +71,7 @@
 // console.log(fruitArr2.splice(1,3));
 // Output => [ 'Banana', 'Mango', 'Watermelon' ]
 // console.log(fruitArr2);
-// Output => [ 'Orange' ]
+// Output  => [ 'Orange' ]
 /* Must Read This Note To Understand the "Splice Function" ....> splice()` is used to modify an array by removing and/or adding elements at a specified index. */
 
 
