@@ -54,7 +54,7 @@
 // Join () in JavaScript is used to join all the elements of an array (separated   by commas by default) into a string.//
 // Output => 0,1,2,3,4,5
 
- 
+                   // SLICE FUNCTION
 // // const myArr = [0 ,1 ,2 ,3 ,4 ,5]
 // // console.log(myArr.slice(1,3));
 // Output => [1 , 2]
