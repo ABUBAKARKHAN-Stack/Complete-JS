@@ -88,7 +88,7 @@
     // console.log(anotherfbname);
     
     // 2: Heap Memory
-   // Stack Memory Used in all Non-Primitive Data Types (Referances DT)
+   // Heap Memory Used in all Non-Primitive Data Types (Referances DT)
     //   let userOne = {
     //     name : "adil" , 
     //     email : "xyz@gmail.com"

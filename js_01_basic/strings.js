@@ -67,7 +67,7 @@
 // console.log(list.drink.split("_"));
 // Output = [ 'pepsi', '7up' ]
 
- // To Join words //
+//  To Join words //
 // const big = "bold"
 // console.log(big.concat("/thin"));
 // Output = bold/thin
