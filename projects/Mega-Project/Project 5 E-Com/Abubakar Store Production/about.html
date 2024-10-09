@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/images/shopping-cart-.svg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Discover Abubakar Store</title>
+  <script type="module" crossorigin src="/assets/showToast-7mOh84xe.js"></script>
+  <script type="module" crossorigin src="/assets/main-Cu4lXPhe.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/showToast-CvWek7Gs.css">
+</head>
+
+<body class="font-poppins bg-[#f7f7f7]">
+
+  <header class="relative header">
+    <nav class="bg-[#fefefe] w-full py-6 px-8 lg:px-48 flex items-center justify-between lg:space-x-8">
+      <!-- Grid Layout for Small Devices -->
+      <div class="grid grid-cols-1 lg:grid-cols-[auto_1fr_auto] items-center gap-4 lg:gap-0 w-full">
+        <!-- Logo -->
+        <a href="/index.html">
+          <div
+            class="logo-container uppercase w-fit mx-auto flex justify-center items-center text-sm px-1 py-0.5 border-2 border-black font-extrabold tracking-wide lg:col-start-1 lg:col-end-2">
+            <h1 class="logo-text text-white bg-[#18181b] p-2">abubakar</h1>
+            <h1 class="logo-text text-black bg-white p-2">store</h1>
+          </div>
+        </a>
+
+        <!-- Desktop Menu -->
+        <ul
+          class="nav-links uppercase hidden lg:flex lg:items-center lg:justify-end lg:mr-9 list-none gap-8 text-sm font-normal lg:col-start-2 lg:col-end-3">
+          <li class="nav-item relative group">
+            <a href="/index.html"
+              class="nav-link hover:text-violet-400  hover:transition-colors hover:duration-300 hover:ease-in-out">
+              home
+              <span
+                class="underline-indicator absolute left-0 bottom-0 w-full h-[1px] bg-violet-400 transform scale-x-0 group-hover:scale-x-90 transition-transform duration-300 ease-in-out"></span>
+            </a>
+          </li>
+          <li class="nav-item relative group">
+            <a href="/about.html"
+              class="nav-link hover:text-violet-400  hover:transition-colors hover:duration-300 hover:ease-in-out">
+              about
+              <span
+                class="underline-indicator absolute left-0 bottom-0 w-full h-[1px] bg-violet-400 transform scale-x-0 group-hover:scale-x-90 transition-transform duration-300 ease-in-out"></span>
+            </a>
+          </li>
+          <li class="nav-item relative group">
+            <a href="/product.html"
+              class="nav-link hover:text-violet-400  hover:transition-colors hover:duration-300 hover:ease-in-out">
+              products
+              <span
+                class="underline-indicator absolute left-0 bottom-0 w-full h-[1px] bg-violet-400 transform scale-x-0 group-hover:scale-x-90 transition-transform duration-300 ease-in-out"></span>
+            </a>
+          </li>
+          <li class="nav-item relative group">
+            <a href="/contact.html"
+              class="nav-link hover:text-violet-400  hover:transition-colors hover:duration-300 hover:ease-in-out">
+              contact
+              <span
+                class="underline-indicator absolute left-0 bottom-0 w-full h-[1px] bg-violet-400 transform scale-x-0 group-hover:scale-x-90 transition-transform duration-300 ease-in-out"></span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Cart Icon -->
+        <div class="flex justify-between lg:justify-end items-center lg:col-start-3 lg:col-end-4">
+          <a href="addToCart.html" class="cart-icon bg-[#18181b] w-fit flex gap-3 text-white px-3 py-2 rounded"
+            aria-label="View Cart">
+            <img src="/images/shopping-cart-.svg" alt="Cart Icon" class="w-4">
+            <p class="text-xs cart-val">0</p>
+          </a>
+
+          <!-- Hamburger Icon -->
+          <button class="ham-menu lg:hidden flex flex-col justify-center items-start gap-1 ml-4" aria-label="Menu">
+            <div class="ham-icon bg-[#18181b] rounded-sm w-8 h-[3px]"></div>
+            <div class="ham-icon bg-[#18181b] rounded-sm w-7 h-[3px]"></div>
+            <div class="ham-icon bg-[#18181b] rounded-sm w-6 h-[3px]"></div>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- Mobile Menu -->
+    <div
+      class="mobile-menu fixed top-0 left-[-100%] w-full h-full bg-white transition-transform duration-300 ease-in-out z-40 flex flex-col p-8 overflow-y-auto">
+      <button class="close-menu self-end mt-12 text-black">
+        &times;
+      </button>
+      <ul class="flex flex-col gap-8 mt-16 uppercase">
+        <li class="nav-item relative group">
+          <a href="/index.html"
+            class="nav-link text-black text-sm font-normal hover:text-violet-400 transition-colors duration-300 relative block py-2">
+            home
+            <span
+              class="underline-indicator absolute left-0 bottom-0 w-full h-[1px] bg-violet-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+          </a>
+        </li>
+        <li class="nav-item relative group">
+          <a href="/about.html"
+            class="nav-link text-black text-sm font-normal hover:text-violet-400 transition-colors duration-300 relative block py-2">
+            about
+            <span
+              class="underline-indicator absolute left-0 bottom-0 w-full h-[1px] bg-violet-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+          </a>
+        </li>
+        <li class="nav-item relative group">
+          <a href="/product.html"
+            class="nav-link text-black text-sm font-normal hover:text-violet-400 transition-colors duration-300 relative block py-2">
+            products
+            <span
+              class="underline-indicator absolute left-0 bottom-0 w-full h-[1px] bg-violet-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+          </a>
+        </li>
+        <li class="nav-item relative group">
+          <a href="/contact.html"
+            class="nav-link text-black text-sm font-normal hover:text-violet-400 transition-colors duration-300 relative block py-2">
+            contact
+            <span
+              class="underline-indicator absolute left-0 bottom-0 w-full h-[1px] bg-violet-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Home Hero Section Starts Here -->
+  <section class="hero-sec-elem relative w-full h-[500px] bg-gradient-to-r from-blue-500 to-blue-300">
+    <div
+      class="w-full h-full grid px-6 md:px-24 lg:px-48 grid-cols-1 lg:grid-cols-2 place-content-center place-items-center">
+      <div class="grid grid-cols-1 gap-4">
+        <p class="uppercase text-[#003b99] text-xs md:text-sm font-semibold tracking-widest">explore the latest in tech
+          industries</p>
+        <p class="text-xl vxxs:text-2xl md:text-3xl xl:text-4xl font-bold text-[#003b99]">Your Destination For
+          Cutting-Edge Gadgets!
+        </p>
+        <p class="text-xs md:text-sm xl:text-base text-white tracking-wide">
+          Welcome to Abubakar eCommerce Store, your ultimate destination for cutting-edge gadgets! Explore the latest in
+          tech innovations and style with us. Shop now and discover a world of possibilities.
+        </p>
+        <div
+          class="text-xs font-light tracking-wider bg-[#212121] hover:bg-[#323232] transition-colors duration-300 ease-linear w-fit text-white px-4 py-1.5 rounded">
+          Explore Our Products
+        </div>
+      </div>
+      <div class="mt-4 lg:mt-0">
+        <img src="/images/heroImage.webp" alt="heroImage"
+          class=" animate-slideFadeIn w-48 vxxs:w-56 xxs:w-64 md:w-80 lg:w-96">
+      </div>
+    </div>
+    <div class="custom-shape-divider-bottom-1723223089 hidden xxs:block">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+          opacity=".25" class="shape-fill"></path>
+        <path
+          d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+          opacity=".5" class="shape-fill"></path>
+        <path
+          d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+  <!-- Home Hero Section Ends Here -->
+
+  <!-- Get Extra Discount Section Starts Here -->
+  <section class="discountOfferSec w-full px-2 vxxs:px-6 xxs:px-12 xs:px-24 lg:px-48 py-12">
+    <div class="grid gap-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- First Card -->
+      <div class="1stCard p-4 bg-[#fefefe] flex flex-col vxxs:flex-row justify-start items-center">
+        <div class="space-y-2">
+          <p class="uppercase text-[#1f36c8] text-[10px] font-light tracking-widest">New Offer</p>
+          <p class="font-[500] text-sm">Get an Extra 50% Off on Laptops</p>
+          <p class="underline cursor-pointer"><a href="/product.html">Shop Now</a></p>
+        </div>
+        <div>
+          <img src="/images/laptop.webp" alt="laptop" class="w-28 vxxs:w-52">
+        </div>
+      </div>
+      <!-- Second Card -->
+      <div class="2ndCard p-4 bg-[#fefefe] flex flex-col vxxs:flex-row gap-4 justify-start items-center">
+        <div class="space-y-2">
+          <p class="uppercase text-[#1f36c8] text-[10px] font-light tracking-widest">New Offer</p>
+          <p class="font-semibold text-sm">Get an Extra 40% Off on Headphones</p>
+          <p class="underline cursor-pointer"><a href="/product.html">Shop Now</a></p>
+        </div>
+        <div>
+          <img src="/images/headphoneEcom.webp" alt="headphones" class="w-28 vxxs:w-52">
+        </div>
+      </div>
+      <!-- Third Card -->
+      <div class="3rdCard p-4 bg-[#fefefe] flex flex-col vxxs:flex-row gap-4 justify-start items-center">
+        <div class="space-y-2">
+          <p class="uppercase text-[#1f36c8] text-[10px] font-light tracking-widest">New Offer</p>
+          <p class="font-semibold text-sm">Get an Extra 55% Off on Mobiles</p>
+          <p class="underline cursor-pointer"><a href="/product.html">Shop Now</a></p>
+        </div>
+        <div>
+          <img src="/images/mobiles.webp" alt="mobiles" class="w-28 vxxs:w-52">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Get Extra Discount Section Ends Here -->
+
+
+  <!-- Policy Section Starts From Here -->
+  <section class="policyElem w-full px-2 vxxs:px-6 xxs:px-12 xs:px-24 lg:px-48 py-12">
+    <div class="grid 2xl:gap-0 gap-2 lg:grid-cols-3 2xl:grid-cols-4">
+      <div
+        class="1stCard p-4 bg-[#fefefe] h-[150px] 2xl:border-r border-gray-100 flex gap-6 justify-start items-center">
+        <div>
+          <img src="/images/truck.svg" alt="truck" class="w-9">
+        </div>
+        <div class="flex flex-col justify-center w-full">
+          <p class="text-sm tracking-widest">Worldwide Shipping</p>
+          <p class="text-xs tracking-widest">On Orders Over $100</p>
+        </div>
+      </div>
+
+      <div
+        class="2ndCard p-4 bg-[#fefefe] h-[150px] 2xl:border-r border-gray-100 flex gap-6 justify-start items-center">
+        <div>
+          <img src="/images/return.svg" alt="return" class="w-8">
+        </div>
+        <div class="flex flex-col justify-center w-full">
+          <p class="text-sm tracking-widest">Easy 30-Day Returns</p>
+          <p class="text-xs tracking-widest">Return Within 7 Days</p>
+        </div>
+      </div>
+
+      <div
+        class="3rdCard p-4 bg-[#fefefe] h-[150px] 2xl:border-r border-gray-100 flex gap-6 justify-start items-center">
+        <div>
+          <img src="/images/moneyback.svg" alt="moneyback" class="w-9">
+        </div>
+        <div class="flex flex-col justify-center w-full">
+          <p class="text-sm tracking-widest">Money-Back Guarantee</p>
+          <p class="text-xs tracking-widest">Within 30 Days</p>
+        </div>
+      </div>
+
+      <div class="4thCard p-4 bg-[#fefefe] h-[150px] flex gap-6 justify-start items-center">
+        <div>
+          <img src="/images/service.svg" alt="service" class="w-9">
+        </div>
+        <div class="flex flex-col justify-center w-full">
+          <p class="text-sm tracking-widest">24/7 Online Support</p>
+          <p class="text-xs tracking-widest">Anytime, Anywhere</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Policy Section Ends From Here -->
+
+
+
+   <!-- Why Choose Us Section Starts Here -->
+   <section class="chooseUsElem w-full px-2 vxxs:px-6 xxs:px-12 xs:px-24 lg:px-48 ">
+    <div>
+      <p class="text-2xl xxs:text-start  text-center font-semibold">Why Choose Abubakar Store</p>
+      <p class="text-sm mt-2 xxs:text-start text-center text-gray-600">Abubakar Store offers a unique selection of the
+        latest gadgets, ensuring
+        quality, affordability, and exceptional customer service.</p>
+    </div>
+
+    <section class="py-20">
+      <div class="w-full grid grid-cols-1 justify-center items-center md:grid-cols-3 gap-6">
+
+        <!-- Points 1, 2, 3 -->
+
+        <div class="flex flex-col space-y-8 order-2 1.5xl:order-none ">
+          <!-- Point 1 -->
+          <div class="flex flex-col gap-2 text-center md:text-end">
+            <div class="flex justify-center md:justify-end md:items-end">
+              <div class="h-14 w-14 flex justify-center items-center rounded-full bg-[#ebf3fe]">
+                <p class="text-[#535bf2] text-center text-xl">1</p>
+              </div>
+            </div>
+            <p class="font-semibold text-base">Wide Selection</p>
+            <p class="text-[#5b5b5e] text-sm font-light tracking-wider">
+              Abubakar Store offers a diverse range of gadgets, from smartphones to smart home devices, ensuring you
+              find what you need to elevate your lifestyle and meet your tech requirements.
+            </p>
+          </div>
+
+          <!-- Point 2 -->
+          <div class="flex flex-col gap-2 text-center md:text-end">
+            <div class="flex justify-center md:justify-end md:items-end">
+              <div class="h-14 w-14 flex justify-center items-center rounded-full bg-[#ebf3fe]">
+                <p class="text-[#535bf2] text-center text-xl">2</p>
+              </div>
+            </div>
+            <p class="font-semibold text-base">Quality Assurance</p>
+            <p class="text-[#5b5b5e] font-light text-sm tracking-wider">
+              Every gadget at Abubakar Store undergoes rigorous quality checks, guaranteeing reliability and
+              performance, so you can shop with confidence knowing you're getting the best.
+            </p>
+          </div>
+
+          <!-- Point 3 -->
+          <div class="flex flex-col gap-2 text-center md:text-end">
+            <div class="flex justify-center md:justify-end md:items-end">
+              <div class="h-14 w-14 flex justify-center items-center rounded-[50%] bg-[#ebf3fe]">
+                <p class="text-[#535bf2] text-center text-xl">3</p>
+              </div>
+            </div>
+            <p class="font-semibold text-base">Competitive Prices</p>
+            <p class="text-[#5b5b5e] font-light text-sm tracking-wider">
+              Enjoy great value with Abubakar Store's competitive prices on high-quality gadgets, making top-of-the-line
+              technology accessible to all without compromising on quality or performance.
+            </p>
+          </div>
+        </div>
+
+        <!-- Central Image -->
+        <div class="flex justify-center items-center">
+          <div
+            class="central-circle flex justify-center items-center h-[20rem] w-[20rem] rounded-full bg-transparent animate-none 1.5xl:bg-[#7aadff] 1.5xl:animate-circle">
+            <img src="/images/ecompost.webp" alt="ecompost" class=" h-auto object-contain w-[230px]">
+          </div>
+        </div>
+
+        <!-- Points 4, 5, 6 -->
+        <div class="flex flex-col order-last 1.5xl:order-none space-y-6">
+          <!-- Point 4 -->
+          <div class="flex flex-col gap-2 text-center md:text-end">
+            <div class="flex justify-center md:justify-end md:items-end">
+              <div class="h-14 w-14 flex justify-center items-center rounded-full bg-[#ebf3fe]">
+                <p class="text-[#535bf2] text-center text-xl">4</p>
+              </div>
+            </div>
+            <p class="font-semibold text-base">Expert Guidance</p>
+            <p class="text-[#5b5b5e] text-sm font-light tracking-wider">
+              Our knowledgeable staff provides expert guidance, helping you choose the right gadget to meet your needs
+              and preferences, ensuring you make informed decisions every step of the way.
+            </p>
+          </div>
+
+          <!-- Point 5 -->
+          <div class="flex flex-col gap-2 text-center md:text-end">
+            <div class="flex justify-center md:justify-end md:items-end">
+              <div class="h-14 w-14 flex justify-center items-center rounded-full bg-[#ebf3fe]">
+                <p class="text-[#535bf2] text-center text-xl">5</p>
+              </div>
+            </div>
+            <p class="font-semibold text-base">Convenient Shopping</p>
+            <p class="text-[#5b5b5e] font-light text-sm tracking-wider">
+              With Abubakar Store, shopping for gadgets is easy and convenient. Our user-friendly website and secure
+              payment options ensure a seamless experience from browsing to checkout, all from the comfort of your home.
+            </p>
+          </div>
+
+          <!-- Point 6 -->
+          <div class="flex flex-col gap-2 text-center md:text-end">
+            <div class="flex justify-center md:justify-end md:items-end">
+              <div class="h-14 w-14 flex justify-center items-center rounded-full bg-[#ebf3fe]">
+                <p class="text-[#535bf2] text-center text-xl">6</p>
+              </div>
+            </div>
+            <p class="font-semibold text-base">Excellent Service</p>
+            <p class="text-[#5b5b5e] font-light text-sm tracking-wider">
+              Abubakar Store is committed to providing excellent service to our customers. From prompt assistance with
+              inquiries to efficient handling of orders and deliveries, we prioritize your satisfaction every step of
+              the way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- Why Choose Us Section ENDS Here -->
+
+  <!-- Footer Sec Starts Here -->
+  <footer class="bg-[#2a2c30] flex flex-col items-center w-full text-white py-12">
+    <div class="w-full grid grid-cols-1 md:grid-cols-2  gap-8 px-6 lg:px-12">
+
+
+      <!-- Brand and Description -->
+      <div class="flex flex-col items-center text-center space-y-4">
+        <a href="/index.html"
+          class="uppercase flex items-center text-sm px-1 py-0.5 border-2 border-white font-extrabold tracking-wide">
+          <h1 class="text-white bg-[#38b6ff] p-2">abubakar</h1>
+          <h1 class="text-[#38b6ff] bg-white p-2">store</h1>
+        </a>
+
+        <p class="text-[10px] vxxs:text-xs xxs:text-base w-full md:max-w-xs">Welcome to Abubakar EcomStore, your
+          ultimate destination for cutting-edge
+          gadgets!</p>
+
+           <!-- Social Media Link -->
+
+        <div class="flex gap-4">
+          <div class=" border border-white h-6 w-6 rounded-[50%] flex justify-center items-center">
+            <a href="https://www.linkedin.com/in/abubakar-ejaz/" target="_blank">
+              <img src="/images/linkedin.svg" alt="fb" class="w-[12px]">
+            </a>
+        </div>
+          <div class=" border border-white h-6 w-6 rounded-[50%] flex justify-center items-center">
+              <a href="https://github.com/ABUBAKARKHAN-Stack" target="_blank">
+                <img src="/images/git.svg" alt="fb" class="w-[14px]">
+              </a>
+          </div>
+          <div class=" border border-white h-6 w-6 rounded-[50%] flex justify-center items-center">
+              <a href="https://www.instagram.com/abubakarxd7/" target="_blank">
+                <img src="/images/insta.svg" alt="insta" class="w-[14px]">
+              </a>
+          </div>
+          <div class=" border border-white h-6 w-6 rounded-[50%] flex justify-center items-center">
+              <a href="https://www.facebook.com/abubakar.tanoli.961" target="_blank">
+                 <img src="/images/fb.svg" alt="fb" class="w-[14px]">
+              </a>
+          </div>
+      </div>
+
+
+        <div class="flex mt-4 space-x-3">
+          <img src="/images/paymentMethods.webp" alt="Payment Methods" class="h-4">
+        </div>
+      </div>
+
+      <!-- Quick Links and Customer Service -->
+      <div class="grid grid-cols-2 gap-8 md:gap-4 justify-center items-start">
+        <!-- Quick Links -->
+        <div class="flex flex-col items-center space-y-4">
+          <h3 class="text-xs xxs:text-base font-semibold mb-2">Quick Links</h3>
+          <ul class="space-y-2 text-xs sm:text-sm text-[#ccc]">
+            <li><a href="/index.html" class="hover:underline">Home</a></li>
+            <li><a href="/product.html" class="hover:underline">Shop</a></li>
+            <li><a href="/about.html" class="hover:underline">About Us</a></li>
+            <li><a href="/contact.html" class="hover:underline">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Customer Service -->
+        <div class="flex flex-col items-center space-y-4">
+          <h3 class="text-xs xxs:text-base font-semibold mb-2">Customer Service</h3>
+          <ul class="space-y-2 text-xs sm:text-sm text-[#ccc]">
+            <li><a href="/contact.html" class="hover:underline">Support</a></li>
+            <li><a href="/product.html" class="hover:underline">Shipping & Delivery</a></li>
+            <li><a href="/product.html" class="hover:underline">Returns & Exchanges</a></li>
+            <li><a href="/product.html" class="hover:underline">Track Order</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="mt-8 border-t w-full border-gray-700 pt-4 text-center text-sm">
+      <p class="font-thin tracking-widest text-sm xs:text-base">Designed and Developed by <a
+          href="https://codewithabubakar.netlify.app" target="_blank" class="hover:text-[#38b6ff]">Abubakar Aijaz</a>
+      </p>
+    </div>
+  </footer>
+  <!-- Footer Sec Ends Here -->
+  <script src="/additionalScripts/mobile-Menu.js"></script>
+</body>
+
+</html>

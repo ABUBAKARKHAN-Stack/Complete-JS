@@ -1,0 +1,55 @@
+body {
+  /* background: linear-gradient(to right, #252627, #98c5bb, #252627); */
+  padding: 0;
+  background-color: rgba(59, 58, 109, 0.897);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    color: whitesmoke;
+    font-weight: 700;
+   
+  }
+  
+.container{
+  padding: 1rem;
+  box-shadow: 2px 1px 6px 10px rgb(6, 1, 22) ;
+  /* background: linear-gradient(to right, rgb(153, 150, 150), rgb(131, 130, 70)); */
+  border-radius: 8px;
+  background: rgba(8, 54, 54, 0.192);
+  height: 90vh;  
+  width: 40vw;
+  margin: 0 auto;
+
+  
+}
+@media (max-width: 767px) {
+    .container {
+      width: 90vw; 
+      height: auto;
+      padding: 1rem;
+    }
+  }
+  
+  
+#submit {
+  background-color: #2c3e50; 
+  color: #ecf0f1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #submit:hover {
+    background-color: #0d80d3;
+    color: wheat
+  }
+
+#submit:hover {
+    background-color: #3498db; /* A lighter blue color on hover */
+    color: #fff; /* White text on hover */
+    /* ... */
+}
