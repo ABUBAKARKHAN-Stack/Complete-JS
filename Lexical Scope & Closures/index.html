@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <script>
         function outer() {
-            let name =  'USER-abc'
-            function inner(){
+            let name = 'USER-abc'
+            function inner() {
                 console.log(name);
             }
-            function innerTwo(){
+            function innerTwo() {
                 console.log(name);
             }
             inner()
-innerTwo()
+            innerTwo()
         }
         outer()
     </script>
 </body>
+
 </html>
